@@ -1,0 +1,30 @@
+CRITICAL - 2025-04-12 02:40:30 --> ErrorException: Undefined array key "visiting"
+[Method: GET, Route: visiting]
+in APPPATH\Views\project\One.php on line 52.
+ 1 APPPATH\Views\project\One.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visiting"', 'C:\\xampp\\htdocs\\Projectku\\codeigniter4-framework-96a1e60\\app\\Views\\project\\One.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Projectku\\codeigniter4-framework-96a1e60\\app\\Views\\project\\One.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('project/One', [], true)
+ 5 APPPATH\Controllers\OneController.php(49): view('project/One', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OneController->listContent()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OneController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Projectku\\codeigniter4-framework-96a1e60\\public\\index.php')
+CRITICAL - 2025-04-12 02:44:16 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: tujuan]
+in APPPATH\Views\project\One.php on line 53.
+ 1 APPPATH\Views\project\One.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\xampp\\htdocs\\Projectku\\codeigniter4-framework-96a1e60\\app\\Views\\project\\One.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Projectku\\codeigniter4-framework-96a1e60\\app\\Views\\project\\One.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('project/One', [], true)
+ 5 APPPATH\Controllers\OneController.php(49): view('project/One', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OneController->listContent()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OneController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Projectku\\codeigniter4-framework-96a1e60\\public\\index.php')
